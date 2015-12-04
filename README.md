@@ -5,4 +5,6 @@ Calculate the sales taxes on a basket of items
 
 [![Build Status](https://travis-ci.org/stephenhartley/sales-taxes-shopping-basket.svg)](https://travis-ci.org/stephenhartley/sales-taxes-shopping-basket)
 
-Code by [Stephen Hartley](http://stackoverflow.com/users/993262/stephen-hartley)
+<a href="http://stackoverflow.com/users/993262/stephen-hartley">
+<img src="http://stackoverflow.com/users/flair/993262.png" width="208" height="58" alt="profile for Stephen Hartley at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Stephen Hartley at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
