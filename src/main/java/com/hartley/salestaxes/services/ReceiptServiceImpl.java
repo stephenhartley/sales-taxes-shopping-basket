@@ -20,7 +20,7 @@ public final class ReceiptServiceImpl implements ReceiptService {
 	public BigDecimal getTotalTaxes(List<Item> items) {
 		BigDecimal result = BigDecimal.ZERO;
 		for (Item item : items) {
-			result.add(item.getTax());
+			result = result.add(item.getTax());
 		}
 		return result;
 	}
@@ -28,7 +28,7 @@ public final class ReceiptServiceImpl implements ReceiptService {
 	public BigDecimal getReceiptTotal(List<Item> items) {
 		BigDecimal result = BigDecimal.ZERO;
 		for (Item item : items) {
-			result.add(item.getPriceIncludingTax());
+			result = result.add(item.getPriceIncludingTax());
 		}
 		return result;
 	}
